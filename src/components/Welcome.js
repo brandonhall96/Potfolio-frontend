@@ -3,7 +3,7 @@ import React from 'react';
 const Welcome = () => {
     return (
         <div>
-            <h1>Welcome to the thunderdome</h1>
+            <h1>Welcome to My Portfolio!</h1>
         </div>
     )
 }
