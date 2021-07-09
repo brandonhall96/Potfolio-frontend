@@ -9,10 +9,11 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Profile from './components/Profile';
+// import Profile from './components/Profile';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import About from './components/About';
+import Projects from './components/Projects';
 
 //private route component
 const PrivateRoute = ({ component: Component, ...rest}) => {
@@ -74,8 +75,9 @@ function App() {
             <Route path='/signup' component={ Signup } />
             <Route path='/login' render={(props) => <Login {...props} user={currentUser} nowCurrentUser={nowCurrentUser} setIsAuthenticated={setIsAuthenticated} /> } />
             <Route path='/about' component={About} />
+            <Route path='/projects' component={Projects} />
             <Route exact path='/' component={Welcome} />
-            <PrivateRoute path = '/profile' component={Profile} user={currentUser} handleLogout={handleLogout} />
+            {/* <PrivateRoute path = '/profile' component={Profile} user={currentUser} handleLogout={handleLogout} /> */}
           
         </Switch>
       </div>
