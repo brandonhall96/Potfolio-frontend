@@ -5,8 +5,9 @@ html {
 
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
-  background-image: url(./portbg.jpeg);
+  background-image: url(./portbg8.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .footer {
@@ -45,14 +46,14 @@ body {
   
   }
 #navbar1 {
-    background-color: #3F5F73;
+    background-color: #6c757d;
 }
 
 #navbarsExample07 {
-    background-color: #3F5F73;
+    background-color: #6c757d;
 }
 #navbar2 {
-    background-color: #3F5F73;
+    background-color: #6c757d;
 }
 
 /* h1 { 
@@ -64,5 +65,28 @@ body {
 }
 
 .footer {
-    background-color: #3F5F73;
+    background-color: #6c757d;
+}
+
+
+
+.movie-grid {
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    /* flex-wrap: wrap; */
+    margin: 40px;
+    /* margin-bottom: 20px; */
+}
+
+h1, h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.page-headers {
+    text-align: center;
 }
