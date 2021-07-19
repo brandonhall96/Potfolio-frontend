@@ -45,8 +45,12 @@ const Projects = () => {
                     <img class="card-img-top" src="images/proj4.jpeg" alt="Card image cap" />
                         <div class="card-body">
                             <h5 class="card-title">FakeFlix</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural 
-                            lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="proj-p" class="card-text">Our App is called FakeFlix which is based off the well known movie streaming 
+                                                        site 'Netflix'
+                                                        It will demonstrate a combination of React, JavaScript, Express and MongoDB. 
+                                                        The App is pretty self explanatory, 
+                                                        once a profile has been created the user will be able to login, 
+                                                        choose movies and add them to a favorites or watchlist.</p>
                             
                     </div>
                 </div>

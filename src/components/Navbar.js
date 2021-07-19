@@ -17,9 +17,6 @@ const Navbar = (props) => {
                         <li className="nav-item">
                             <NavLink className="nav-link" exact to="/projects">Projects</NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link"  to="/about">About</NavLink>
-                        </li>
                     </ul>
                 </div>
             </div>

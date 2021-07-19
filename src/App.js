@@ -9,7 +9,7 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import About from './components/About';
+// import About from './components/About';
 import Projects from './components/Projects';
 
 
@@ -24,7 +24,7 @@ function App() {
       <div className='container mt-5'>
         <Switch>
             {/* routes will go inside of here */}
-            <Route path='/about' component={About} />
+            {/* <Route path='/about' component={About} /> */}
             <Route path='/projects' component={Projects} />
             <Route exact path='/' component={Welcome} />
             
