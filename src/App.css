@@ -81,19 +81,24 @@ body {
 
 h1, h2 {
     color: white;
+    font-family: 'Carter One'
 }
 
 p {
-    color: white;
+    color: black;
 }
 
 .page-headers {
     text-align: center;
+    font-family: 'Carter One'
 }
 
-p {
-    color: red;
+
+#bio {
+    color: white;
 }
+
+
 
 
 

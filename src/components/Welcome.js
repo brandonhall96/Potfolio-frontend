@@ -9,7 +9,7 @@ const Welcome = () => {
             </div>
             <div>
                 <h2>Hi! My name is Brandon Hall</h2>
-                <p>
+                <p id="bio">
                 Im a full stack web developer and photographer with a passion for creating innovative and effective solutions. With years of retail management experience i have developed the skills to come up with new solutions, adapt quickly, and have great time managment.
                 </p>
             </div>
