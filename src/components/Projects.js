@@ -11,7 +11,7 @@ const Projects = () => {
                 <div class="card">
                     <img class="card-img-top" src="images/proj1.jpeg" alt="Card image cap" />
                         <div class="card-body">
-                            <h5 class="card-title">F1 Trivia</h5>
+                            <h5 class="card-title"> <a href='https://brandonhall96.github.io/F1-Trivia/'>F1 Trivia</a></h5>
                             <p class="card-text">My game is called F1 Trivia, which is based off the popular 
                             motorsport F1. It will demonstrate a combination of HTML, CSS and Javascript.
                             The game is fairly easy to play and will depend of the users knowledge 
@@ -26,7 +26,7 @@ const Projects = () => {
                 <div class="card">
                     <img class="card-img-top" src="images/proj2.jpeg" alt="Card image cap" />
                         <div class="card-body">
-                            <h5 class="card-title">Dream Team Builder</h5>
+                            <h5 class="card-title"> <a href="https://dream-team-builder.herokuapp.com/">Dream Team Builder</a></h5>
                             <p class="card-text">My App is called Dream Team Builder which is based off the 
                             commonly know professional hockey league also know as the NHL.
                             It will demonstrate a combination of HTML, CSS, Javascript, 
@@ -41,7 +41,7 @@ const Projects = () => {
                 <div class="card">
                     <img class="card-img-top" src="images/proj3.png" alt="Card image cap" />
                         <div class="card-body">
-                            <h5 class="card-title">FakeX</h5>
+                            <h5 class="card-title"> <a href='https://fakex-react.herokuapp.com/'>FakeX</a></h5>
                             <p class="card-text">FakeX allows you to be an applicant for a super real and exclusive FakeX astronaut program that allows you to 
                             track 5 of the 1500 Starlink satellites (real location and height based on SPACEX api call) as well as
                             learn about SpaceX Rockets, crew, and Dragons.
@@ -55,7 +55,7 @@ const Projects = () => {
                 <div class="card">
                     <img class="card-img-top" src="images/proj4.jpeg" alt="Card image cap" />
                         <div class="card-body">
-                            <h5 class="card-title">FakeFlix</h5>
+                            <h5 class="card-title"> <a href='https://young-basin-22033.herokuapp.com/'>FakeFlix</a></h5>
                                 <p class="proj-p" class="card-text">Our App is called FakeFlix which is based off the well known movie streaming 
                                                         site 'Netflix'
                                                         It will demonstrate a combination of React, JavaScript, Express and MongoDB. 
